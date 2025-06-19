@@ -9,6 +9,11 @@
   text-shadow: 1px 1px 10px black;
 }
 
+
+a:hover {
+  text-decoration: underline;
+}
+
 .nav_bar {
   display: flex;
   align-items: center;
@@ -34,6 +39,8 @@
 
   border: 3px solid black;
   box-shadow: 3px 3px 5px black;
+
+  
 }
 
 .footer_nav {
@@ -53,3 +60,4 @@
     font-size: 36px;
     text-shadow: 5px 5px 10px black;
 }
+
