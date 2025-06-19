@@ -5,9 +5,8 @@
 * {
   font-weight: bold;
   font-family: roboto, sans-serif;
-
   min-height: 100%vh;
-  max-width: 800px;
+  max-width: 850px;
   border-radius: 20px;
   font-size: 24px;
   text-decoration: none;
@@ -102,7 +101,12 @@ a:hover {
 .about_me {
   display: flex;
   text-align: center;
-  margin-top: 100px;
-  color: seagreen;
 
+  margin-top: 200px;
+  margin-left: 130px;
+  max-width: 600px;
+  color: seagreen;
+}
+.footer_about_me {
+  margin-top: 100px;
 }
