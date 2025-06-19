@@ -5,7 +5,6 @@
 * {
   font-weight: bold;
   font-family: roboto, sans-serif;
-  min-height: 100%vh;
   max-width: 850px;
   border-radius: 20px;
   font-size: 24px;
@@ -109,4 +108,26 @@ a:hover {
 }
 .footer_about_me {
   margin-top: 100px;
+}
+
+/* skills */
+
+.skills {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 150px;
+  justify-content: center;
+  color: seagreen;
+  text-shadow:none;
+  
+  
+}
+
+ul.skills_list {
+  list-style: square;
+  
+}
+
+li::marker {
+  color: rgb(138, 20, 20);
 }
